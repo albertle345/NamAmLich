@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Scanner read = new Scanner(System.in);
-        System.out.println("nhap nam duong lich:");
+        System.out.println("xin moi nhap nam duong lich:");
         int namDuong = read.nextInt();
         String namAm = tinhNamAm(namDuong);
         System.out.println(namAm);
